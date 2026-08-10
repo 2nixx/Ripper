@@ -106,6 +106,17 @@ Issues and pull requests are welcome.
 3. Commit your changes
 4. Open a pull request
 
+## Disclaimer
+
+This project is developed for educational and research purposes only. It is intended to demonstrate the technical aspects of Telegram's reporting mechanism and multi-account automation.
+
+The author does not endorse or encourage any misuse of this tool, including but not limited to:
+- Reporting legitimate content
+- Harassing individuals or groups
+- Violating Telegram's Terms of Service
+
+Users are solely responsible for their actions and must ensure compliance with all applicable laws and regulations. The author assumes no liability for any consequences arising from the use of this software.
+
 ## License
 
 See the `LICENSE` file for details.
