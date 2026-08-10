@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import os
 import sys
 import json
@@ -308,16 +305,16 @@ class RipperCLI:
     # ======================== NEW MENU DESIGN ========================
     def _print_menu(self):
         ascii_art = f"""
-{Fore.YELLOW}   ██████╗ ██╗██████╗ ██████╗ ███████╗██████╗
-{Fore.YELLOW}   ██╔══██╗██║██╔══██╗██╔══██╗██╔════╝██╔══██╗
-{Fore.CYAN}   ██████╔╝██║██████╔╝██████╔╝█████╗  ██████╔╝
-{Fore.CYAN}   ██╔══██╗██║██╔═══╝ ██╔═══╝ ██╔══╝  ██╔══██╗
+{Fore.RED}   ██████╗ ██╗██████╗ ██████╗ ███████╗██████╗
+{Fore.RED}   ██╔══██╗██║██╔══██╗██╔══██╗██╔════╝██╔══██╗
+{Fore.RED}   ██████╔╝██║██████╔╝██████╔╝█████╗  ██████╔╝
+{Fore.RED}   ██╔══██╗██║██╔═══╝ ██╔═══╝ ██╔══╝  ██╔══██╗
 {Fore.RED}   ██║  ██║██║██║     ██║     ███████╗██║  ██║
 {Fore.RED}   ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝{Style.RESET_ALL}
 """
         print(ascii_art)
         print(f"{Fore.YELLOW}  ╔═══════════════════════════════════════════════╗")
-        print(f"  ║ {Fore.WHITE}        TELEGRAM REPORTING TOOL               {Fore.YELLOW}║")
+        print(f"  ║ {Fore.RED}        Written by T.me/NetworkCriminals               {Fore.YELLOW}║")
         print(f"  ╠═══════════════════════════════════════════════╣")
         print(f"  ║  {Fore.CYAN}1.{Fore.WHITE} Add Account                         {Fore.YELLOW}║")
         print(f"  ║  {Fore.CYAN}2.{Fore.WHITE} List Accounts                       {Fore.YELLOW}║")
