@@ -123,4 +123,4 @@ See the `LICENSE` file for details.
 
 ## Contact Us
 
-- **Telegram Channel:** @NetworkCriminals
+- **Telegram Channel:** T.me/NetworkCriminals
